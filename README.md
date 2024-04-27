@@ -1,8 +1,8 @@
 # Git Synchronization via Cronjob - Setup Steps
 
-WARNING: destructive operation. The script will delete anything that won't sync with the repository before replacing and updating it with the repository content.
+Sync a Github repository to a Linux host with 2 intervals (CI/CD workaround when Linux host doesn't have a public IP/URL).
 
-Sync a Github repository to a Linux host with 2 intervals (CI/CD workaround when Linux host doesn't have a public IP/URL)
+WARNING: destructive operation. The script will delete anything in the destination folder that won't sync with the repository before updating it with the repository content.
 
 ## Overview
 
