@@ -77,7 +77,7 @@ To avoid entering credentials repeatedly, configure Git to store your credential
 git config credential.helper store
 ```
 
-The manually run `git pull` to prompt for credentials and enter them. They will be saved for subsequent pulls. (note that as of the time of this writing, only classic PAT tokens seem to work, not the new PAT (still in Beta) tokens)
+Then manually run `git pull` to prompt for credentials and enter them. They will be saved for subsequent pulls. (note that as of the time of this writing, only classic PAT tokens seem to work, not the new PAT (still in Beta) tokens)
 
 ### 6. Handling Branch Switches
 
