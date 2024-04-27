@@ -2,7 +2,6 @@
 
 Sync a Github repository to a Linux host with 2 intervals (CI/CD workaround when Linux host doesn't have a public IP/URL)
 
-```markdown
 # Git Synchronization via Cronjob Setup Documentation. WARNING: destructive operation. The script will delete anything that won't sync with the repository before replacing and updating it with the repository content.
 
 This document outlines the steps to set up an automated interval based process to synchronize a local repository with a specific branch on GitHub using a cronjob. The setup ensures that the local server remains up-to-date with the latest changes pushed to a branch of choice.
