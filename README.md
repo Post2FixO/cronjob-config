@@ -1,4 +1,4 @@
-# Git Synchronization via Cronjob - Setup Documentation
+# Git Synchronization via Cronjob - Setup Steps
 
 WARNING: destructive operation. The script will delete anything that won't sync with the repository before replacing and updating it with the repository content.
 
