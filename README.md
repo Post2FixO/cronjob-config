@@ -1,12 +1,12 @@
-# cronjob-config
+# Git Synchronization via Cronjob Setup Documentation
+
+WARNING: destructive operation. The script will delete anything that won't sync with the repository before replacing and updating it with the repository content.
 
 Sync a Github repository to a Linux host with 2 intervals (CI/CD workaround when Linux host doesn't have a public IP/URL)
 
-# Git Synchronization via Cronjob Setup Documentation. WARNING: destructive operation. The script will delete anything that won't sync with the repository before replacing and updating it with the repository content.
+## Overview
 
 This document outlines the steps to set up an automated interval based process to synchronize a local repository with a specific branch on GitHub using a cronjob. The setup ensures that the local server remains up-to-date with the latest changes pushed to a branch of choice.
-
-## Overview
 
 The cronjob periodically pulls changes from a specific branch in a GitHub repository to a local directory. The setup involves:
 
@@ -82,5 +82,3 @@ The manually run `git pull` to prompt for credentials and enter them. They will 
 ### 6. Handling Branch Switches
 
 If you need to switch to another branch, update the `<script_name>.sh` script with the new branch name (2 entries). Re-run the script manually to verify that it operates correctly with the new branch.
-
-```
